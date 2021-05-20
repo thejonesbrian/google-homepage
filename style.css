@@ -3,3 +3,48 @@ body {
     font-family: Arial, sans-serif;
     font-size: 0.9em;
 }
+a {
+    margin: 5px;
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    text-decoration: underline;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+#top-nav {
+    display: flex;
+    justify-content: flex-end;
+}
+.header-nav {
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    margin-right: 10px;
+}
+ul > a, ul > img {
+    padding: 8px;
+}
+#account {
+    background-color: forestgreen;
+    text-align: center;
+    height:15px;
+    width:15px;
+    color: white;
+    -webkit-border-radius: 50%;
+    font-weight: 700;
+}
+.header-img:hover {
+    box-shadow: 0 0 10px 0 gainsboro;
+    border-radius: 20px;
+    background-color: gainsboro;
+    text-decoration: none;
+}
+#app {
+    height: 25px;
+    width: 25px;
+    padding: 3px;
+}

@@ -120,6 +120,9 @@ footer > a {
     border-bottom: 1px solid #dadce0;
     color:rgba(0,0,0,.54);
 }
+.input-container > input[type=text] {
+    font-size: medium;
+}
 @media (max-width: 680px){
     #footer-nav {
         flex-direction: column;
